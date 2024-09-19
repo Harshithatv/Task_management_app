@@ -1,0 +1,67 @@
+.sidebar {
+    width: 160px; /* Adjust based on your design */
+    height: 100vh;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .logo {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* Sidebar.css */
+
+.logo {
+  text-align: center;
+  margin: 20px;
+}
+
+.logo-image {
+  width: 100px; /* Adjust the width as needed */
+  height: 0x;
+   /* Center the image if needed */
+  margin-top: 0px;
+}
+
+  
+ /* Navbar Menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .menu-item.active {
+   
+    color: rgb(99, 214, 232); /* Change this to your preferred text color when active */
+  }
+  
+  .menu-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set the text color to black */
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item a:hover {
+    color: rgb(99, 214, 232); /* Change this to your preferred color on hover */
+  }
+  
+  .menu-item svg {
+    margin-right: 10px;
+  }
+  

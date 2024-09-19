@@ -1,0 +1,36 @@
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  margin-left:15px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color:dimgray;
+}
+.card-info p {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+
+.total-task-card .card-left {
+  margin-right: 20px;
+}
+
+.completed-task-card .card-right {
+  margin-left: 20px;
+}

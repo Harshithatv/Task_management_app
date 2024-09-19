@@ -1,0 +1,67 @@
+/* navbar.css */
+
+/* Navbar */
+.navbar {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 195px; /* Start after the sidebar */
+    right: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it stays on top of other elements */
+  }
+  
+  .navbar-left p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .badge-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .badge1, .badge2 {
+    position: absolute;
+    top: -9px;
+    right: -1px;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 12px;
+    min-width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px; /* Center text vertically */
+  }
+  
+  .badge1 {
+    background-color: rgb(244, 180, 51);
+    color: white;
+  }
+  
+  .badge2 {
+    background-color: rgb(99, 214, 232);
+    color: white;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    margin-left: 30px;
+  }
+  

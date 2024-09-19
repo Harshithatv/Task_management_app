@@ -1,0 +1,10 @@
+.dashboard-layout {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 160px; /* Start after the Sidebar */
+    padding: 60px 20px 20px 20px; /* Account for Navbar height */
+    flex: 1;
+  }
+  
